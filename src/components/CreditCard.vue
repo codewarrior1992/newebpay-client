@@ -39,8 +39,9 @@ export default {
           this.MerchantID = response.data.MerchantID;
           this.Version = response.data.Version;
         })
-        .finally(() => {
+        .then(() => {
           this.$refs.form.submit();
+          this.axios.post("redirect");
         });
     },
   },
