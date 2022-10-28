@@ -41,7 +41,7 @@ export default {
         })
         .then(() => {
           this.$refs.form.submit();
-          this.axios.post("redirect");
+          // this.axios.post("redirect");
         });
     },
   },
