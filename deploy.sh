@@ -18,7 +18,7 @@ git commit -m 'deploy'
 # 分支名稱會叫 gh-pages 是因為 Github 在部署時只允許三種來源 (master, gh-pages, master/docs)
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-git push -f https://github.com/codewarrior1992/newebpay.git master:gh-pages
+git push -f https://github.com/codewarrior1992/newebpay-client.git master:gh-pages
 
 # cd
 cd -
